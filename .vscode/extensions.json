@@ -5,6 +5,7 @@
     "antfu.unocss",
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "vue.vscode-typescript-vue-plugin"
   ]
 }

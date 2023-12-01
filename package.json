@@ -21,7 +21,7 @@
     "@iconify-json/mdi": "^1.1.57",
     "@iconify-json/twemoji": "^1.1.14",
     "@types/node": "^20.6.0",
-    "@unocss/preset-icons": "^0.57.7",
+    "@unocss/preset-icons": "^0.55.7",
     "@vitejs/plugin-vue": "^4.3.4",
     "sass": "^1.66.1",
     "typescript": "^5.2.2",

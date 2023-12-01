@@ -51,6 +51,34 @@ export const routes: CustomRouteRecordRaw[] = [
     ],
   },
   {
+    name: "Schedule",
+    path: "/schedule",
+    icon: "i-mdi:table",
+    component: Layout,
+    redirect: "/schedule-page",
+    children: [
+      {
+        path: "/schedule-page",
+        component: () => import("@/views/SchedulePage.vue"),
+        name: "SchedulePage",
+      },
+    ],
+  },
+  {
+    name: "Test",
+    path: "/test",
+    icon: "i-mdi:table",
+    component: Layout,
+    redirect: "/test-page",
+    children: [
+      {
+        path: "/test-page",
+        component: () => import("@/views/TestPage.vue"),
+        name: "TestPage",
+      },
+    ],
+  },
+  {
     name: "404",
     icon: "i-twemoji-face-with-tears-of-joy",
     path: "/:pathMatch(.*)*",
