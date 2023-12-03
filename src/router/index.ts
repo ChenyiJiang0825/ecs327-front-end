@@ -65,6 +65,20 @@ export const routes: CustomRouteRecordRaw[] = [
     ],
   },
   {
+    name: "CurrentSchedule",
+    path: "/currentschedule",
+    icon: "i-mdi:table",
+    component: Layout,
+    redirect: "/currentschedule-page",
+    children: [
+      {
+        path: "/currentschedule-page",
+        component: () => import("@/views/CurrentSchedule.vue"),
+        name: "CurrentSchedule",
+      },
+    ],
+  },
+  {
     name: "Test",
     path: "/test",
     icon: "i-mdi:table",
@@ -75,6 +89,34 @@ export const routes: CustomRouteRecordRaw[] = [
         path: "/test-page",
         component: () => import("@/views/TestPage.vue"),
         name: "TestPage",
+      },
+    ],
+  },
+  {
+    name: "ProfilePage",
+    path: "/profilePage",
+    icon: "i-iconoir:profile-circle",
+    component: Layout,
+    redirect: "/profile-page",
+    children: [
+      {
+        path: "/profile-page",
+        component: () => import("@/views/ProfilePage.vue"),
+        name: "ProfilePage",
+      },
+    ],
+  },
+  {
+    name: "NewProfile",
+    path: "/newprofile",
+    icon: "i-iconoir:profile-circle",
+    component: Layout,
+    redirect: "/newprofile-page",
+    children: [
+      {
+        path: "/newprofile-page",
+        component: () => import("@/views/NewProfile.vue"),
+        name: "NewProfile",
       },
     ],
   },
