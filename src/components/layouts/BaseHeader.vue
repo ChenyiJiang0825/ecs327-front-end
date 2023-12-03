@@ -1,7 +1,7 @@
 <template>
   <el-menu class="el-menu-demo" mode="horizontal">
     <el-menu-item index="0">
-      <img class="h-full" src="element-plus-logo-small.svg" alt="Logo" />
+      <!-- <img class="h-full" src="element-plus-logo-small.svg" alt="Logo" /> -->
       Course Scheduler
     </el-menu-item>
     <div class="flex-grow" />
